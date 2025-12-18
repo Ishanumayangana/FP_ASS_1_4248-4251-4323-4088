@@ -1,0 +1,181 @@
+===============================================================================
+                    CITY NETWORK VISUAL REPRESENTATION
+===============================================================================
+
+                    J (Mountain View)
+                    |
+                    | 3.5
+                    |
+    E (West Plaza)--+-------F (Airport)
+    |               |       |
+    |2.5         6.5|    4.2|
+    |               |       |2.9
+    H (University)  B       |
+    |               |       |
+    |3.1         5.5|    3.8|
+    |               |       |
+    +---------------A-------C (East Market)------I (Beach Resort)
+                    |       |                    |
+                 4.8|    7.2|                 4.5|
+                    |       |                    |
+                    D       G (Industrial Zone)--+
+                (South Port)|                 4.7
+                            |
+                         6.3|
+
+
+===============================================================================
+                         DETAILED CONNECTION TABLE
+===============================================================================
+
+Node A (City Center) - The Main Hub
+  Connected to:
+    -> B (North Station)    : 5.5 km
+    -> C (East Market)      : 7.2 km
+    -> D (South Port)       : 4.8 km
+    -> H (University)       : 3.1 km
+
+Node B (North Station) - Northern Transit Hub
+  Connected to:
+    -> A (City Center)      : 5.5 km
+    -> E (West Plaza)       : 8.0 km
+    -> F (Airport)          : 4.2 km
+    -> J (Mountain View)    : 6.5 km
+
+Node C (East Market) - Eastern Commercial Zone
+  Connected to:
+    -> A (City Center)      : 7.2 km
+    -> F (Airport)          : 3.8 km
+    -> G (Industrial Zone)  : 5.1 km
+    -> I (Beach Resort)     : 4.5 km
+
+Node D (South Port) - Southern Harbor
+  Connected to:
+    -> A (City Center)      : 4.8 km
+    -> G (Industrial Zone)  : 6.3 km
+    -> H (University)       : 5.0 km
+
+Node E (West Plaza) - Western Shopping District
+  Connected to:
+    -> B (North Station)    : 8.0 km
+    -> H (University)       : 2.5 km
+    -> J (Mountain View)    : 7.8 km
+
+Node F (Airport) - International Airport
+  Connected to:
+    -> B (North Station)    : 4.2 km
+    -> C (East Market)      : 3.8 km
+    -> I (Beach Resort)     : 2.9 km
+    -> J (Mountain View)    : 3.5 km
+
+Node G (Industrial Zone) - Manufacturing Area
+  Connected to:
+    -> C (East Market)      : 5.1 km
+    -> D (South Port)       : 6.3 km
+    -> I (Beach Resort)     : 4.7 km
+
+Node H (University) - Academic Campus
+  Connected to:
+    -> A (City Center)      : 3.1 km
+    -> D (South Port)       : 5.0 km
+    -> E (West Plaza)       : 2.5 km
+
+Node I (Beach Resort) - Coastal Recreation
+  Connected to:
+    -> C (East Market)      : 4.5 km
+    -> F (Airport)          : 2.9 km
+    -> G (Industrial Zone)  : 4.7 km
+
+Node J (Mountain View) - Mountain Recreation
+  Connected to:
+    -> B (North Station)    : 6.5 km
+    -> E (West Plaza)       : 7.8 km
+    -> F (Airport)          : 3.5 km
+
+
+===============================================================================
+                         NETWORK STATISTICS
+===============================================================================
+
+Total Nodes: 10
+Total Edges: 34 (bidirectional connections)
+Network Type: Fully Connected Graph
+Average Degree: 3.4 connections per node
+
+Most Connected Nodes:
+  1. A (City Center)   - 4 connections [Central Hub]
+  2. B (North Station) - 4 connections [Transit Hub]
+  3. C (East Market)   - 4 connections [Commercial Hub]
+  4. F (Airport)       - 4 connections [Travel Hub]
+
+Least Connected Nodes:
+  1. D (South Port)       - 3 connections
+  2. E (West Plaza)       - 3 connections
+  3. G (Industrial Zone)  - 3 connections
+  4. H (University)       - 3 connections
+  5. I (Beach Resort)     - 3 connections
+  6. J (Mountain View)    - 3 connections
+
+
+===============================================================================
+                         KEY ROUTES & DISTANCES
+===============================================================================
+
+Shortest Direct Routes:
+  1. E <-> H : 2.5 km (University to West Plaza)
+  2. F <-> I : 2.9 km (Airport to Beach Resort)
+  3. A <-> H : 3.1 km (City Center to University)
+  4. F <-> J : 3.5 km (Airport to Mountain View)
+  5. C <-> F : 3.8 km (East Market to Airport)
+
+Longest Direct Routes:
+  1. B <-> E : 8.0 km (North Station to West Plaza)
+  2. E <-> J : 7.8 km (West Plaza to Mountain View)
+  3. A <-> C : 7.2 km (City Center to East Market)
+  4. B <-> J : 6.5 km (North Station to Mountain View)
+  5. D <-> G : 6.3 km (South Port to Industrial Zone)
+
+
+===============================================================================
+                         GEOGRAPHIC LAYOUT
+===============================================================================
+
+           +5 (North)
+             |
+        J    |
+             |
+    E        |   F
+             |
+        H    |B  
+             |
+  -3 --------+--------+5 (East)
+    (West)   |A   C   I
+             |
+             |  G
+        D    |
+             |
+           -3 (South)
+
+Coordinates:
+  A: City Center       (0, 0)   - Central location
+  B: North Station     (2, 3)   - Northeast
+  C: East Market       (4, 1)   - East
+  D: South Port        (1,-3)   - South
+  E: West Plaza       (-3, 2)   - West
+  F: Airport           (5, 4)   - Far Northeast
+  G: Industrial Zone   (3,-2)   - Southeast
+  H: University       (-2,-1)   - Southwest
+  I: Beach Resort      (6, 0)   - Far East
+  J: Mountain View     (0, 5)   - Far North
+
+
+===============================================================================
+                         USAGE TIPS
+===============================================================================
+
+1. City Center (A) is the best starting point - connects to 4 major areas
+2. Airport (F) and Beach Resort (I) are close (2.9 km) - great for tourists
+3. University (H) and West Plaza (E) are neighbors (2.5 km) - student area
+4. Industrial Zone (G) connects South Port (D) for cargo transport
+5. Mountain View (J) is accessible from Airport (F) for scenic routes
+
