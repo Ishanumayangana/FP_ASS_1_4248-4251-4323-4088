@@ -6,10 +6,6 @@
 
 *Find the shortest route between any two locations in a city network*
 
-[![Language](https://img.shields.io/badge/Language-Haskell-purple.svg)](https://www.haskell.org/)
-[![Paradigm](https://img.shields.io/badge/Paradigm-Functional-blue.svg)](https://en.wikipedia.org/wiki/Functional_programming)
-[![Status](https://img.shields.io/badge/Status-Complete-success.svg)]()
-
 </div>
 
 ---
@@ -27,10 +23,6 @@
 <tr><td>D.I. Vihan</td><td>EG/2020/4323</td></tr>
 </table>
 
-**🎓 Course:** Functional Programming  
-**📚 Domain:** Search & Optimization  
-**🔍 Topic:** Graph Traversal Algorithms  
-**💻 Language:** Haskell (Pure Functional Programming)
 
 ---
 
@@ -558,48 +550,3 @@ Type signatures -> Self-documenting
 ```
 
 ---
-
-## 📚 Additional Resources
-
-### Learn More:
-- 📖 [Learn You a Haskell](http://learnyouahaskell.com/) - Beginner-friendly tutorial
-- 📖 [Haskell Documentation](https://www.haskell.org/documentation/) - Official docs
-- 📖 [Real World Haskell](http://book.realworldhaskell.org/) - Practical guide
-
-### Graph Algorithms:
-- 📖 Introduction to Algorithms (CLRS) - The algorithm bible
-- 📺 YouTube: "Graph Algorithms Visualized"
-
----
-
-## 🎉 Success Tips
-
-1. **Start Simple** - Try finding a path from A to B first
-2. **Experiment** - Test different locations and algorithms
-3. **Read the Code** - Files are well-commented
-4. **Modify & Play** - Change `city_network.txt` to add locations
-5. **Ask Questions** - Check code comments for explanations
-
----
-
-## 📜 License
-
-MIT License - Free to use for educational purposes
-
----
-
-<div align="center">
-
-### 🌟 Made with Functional Programming 🌟
-
-*Pure Functions • Immutable Data • Type Safety • No Side Effects*
-
-**Built by:** Team EG/2020/4088, 4248, 4251, 4323  
-**Course:** Functional Programming  
-**Year:** 2025
-
----
-
-**⭐ If you found this helpful, star this project! ⭐**
-
-</div>
