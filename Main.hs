@@ -1,14 +1,3 @@
-{-|
-Module      : Main
-Description : Main entry point for the Graph Traversal application
-Copyright   : (c) 2025
-License     : MIT
-Maintainer  : student@example.com
-
-This is the main module that coordinates the entire application.
-It demonstrates how FP applications can be structured with clear
-separation between pure logic and IO operations.
--}
 
 module Main where
 

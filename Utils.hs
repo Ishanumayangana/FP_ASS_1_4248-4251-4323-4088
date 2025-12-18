@@ -1,13 +1,3 @@
-{-|
-Module      : Utils
-Description : Utility functions for graph operations and algorithms
-Copyright   : (c) 2025
-License     : MIT
-Maintainer  : student@example.com
-
-This module provides pure utility functions used throughout the application.
-All functions are referentially transparent and side-effect free.
--}
 
 module Utils
     ( -- * Graph Query Functions

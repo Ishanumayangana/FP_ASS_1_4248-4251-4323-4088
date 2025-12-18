@@ -1,20 +1,3 @@
-{-|
-Module      : Processing
-Description : Graph traversal and pathfinding algorithms
-Copyright   : (c) 2025
-License     : MIT
-Maintainer  : student@example.com
-
-This module implements core graph traversal algorithms as pure functions.
-All algorithms are referentially transparent and demonstrate functional programming
-principles including immutability, recursion, and higher-order functions.
-
-Algorithms implemented:
-- Breadth-First Search (BFS) - Unweighted shortest path
-- Depth-First Search (DFS) - Deep exploration
-- Dijkstra's Algorithm - Weighted shortest path
-- A* Algorithm - Heuristic-guided shortest path
--}
 
 module Processing
     ( -- * Main Algorithm Interface

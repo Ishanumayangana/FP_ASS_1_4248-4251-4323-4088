@@ -1,14 +1,3 @@
-{-|
-Module      : IOHandler
-Description : Input/output operations and user interaction
-Copyright   : (c) 2025
-License     : MIT
-Maintainer  : student@example.com
-
-This module handles all IO operations, keeping the boundary between
-pure functional code and side effects clear. It demonstrates how FP
-manages IO through the IO monad while keeping core logic pure.
--}
 
 module IOHandler
     ( -- * Graph Loading

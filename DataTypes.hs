@@ -1,13 +1,3 @@
-{-|
-Module      : DataTypes
-Description : Core data types for graph traversal and pathfinding
-Copyright   : (c) 2025
-License     : MIT
-Maintainer  : student@example.com
-
-This module defines all the pure data types used throughout the application.
-It demonstrates immutable data structures and type safety in functional programming.
--}
 
 module DataTypes
     ( -- * Graph Data Types
